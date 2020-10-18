@@ -5,18 +5,16 @@
   <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
-    <a-assets>
-
-      <a-mixin 
-        id="text"
-			  text="align: center; width: 3;
-            font: https://cdn.aframe.io/fonts/Aileron-Semibold.fnt;
-		        value: Some text.">
-		  </a-mixin>
-        
-    </a-assets>
+      <a-assets>
+        <a-mixin 
+          id="text"
+          text="align: center; width: 3;
+              font: https://cdn.aframe.io/fonts/Aileron-Semibold.fnt;
+              value: Some text.">
+        </a-mixin>
+      </a-assets>
       <a-marker preset="hiro">
-        <a-entity
+        <!-- <a-entity
           position="-10 0 -10"
           scale="0.005 0.005 0.005"
           rotation="45 45 45"
@@ -27,7 +25,7 @@
           scale="0.003 0.003 0.003"
           rotation="45 90 45"
           gltf-model="https://raw.githubusercontent.com/kstonekuan/ar-js-test/main/jumpboost_arrow/scene.gltf"
-        ></a-entity>
+        ></a-entity> -->
         <a-entity
           position="-25 0 -25"
           scale="0.002 0.002 0.002"
